@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+section {
+
+}
+
+section ul {
+	margin-top:1.3rem;
+	background: #FAFFF2;
+}
+
+.item {
+	height: 5rem;
+	line-height: 5rem;
+	vertical-align: middle;
+}
+
+.item div:first-child{
+	width: 4.3rem;
+	height: 5rem;
+	float: left;
+	padding-top:1rem;
+	padding-left:1.3rem;
+}
+
+
+.item div:first-child img {
+  	width: 30px;
+	height: 30px;
+}
+
+.item div:last-child {
+	font-size: 1.7rem;
+    margin-left:5.8rem;
+    color: #1D1D26;
+	font-weight:700;
+	border-bottom:1px solid #E8E8E9;
+}
+
+
+.right-arrow {
+	width: .55rem;
+	height: 1.1rem;
+    float: right;
+    margin-top:1.95rem;
+    margin-right:1.95rem;
+}

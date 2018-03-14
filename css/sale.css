@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+.timer {
+	width:8rem;
+	height:2.8rem;
+	font-size: 1rem;
+    color: #444444;
+    line-height:1.4rem;
+    position:absolute;
+    top:2.4rem;
+    right:1.9rem;
+    font-weight: 700;
+}
+
+
+.content {
+	height:54rem;
+	overflow:auto;
+	padding-top:2.3rem;
+	padding-left:3%;
+	// background-color:pink;
+}
+
+
+
+ .content li {
+     margin-top:1rem;
+     background: #FAFFF2;
+     box-shadow: 0 1px 1px 0 rgba(164,152,135,0.32);
+     border-radius: 1.5rem;
+     width:86%;
+     padding-left:4%;  
+     padding-top:.8rem;
+     padding-bottom: .8rem;
+     position:relative;
+
+ }
+
+
+ .content li span {
+     font-size:1.5rem;
+     color: #444444;
+     padding:.5rem;
+     font-weight:700;
+}
+
+
+
+ .content li img {
+    width: 31px;
+    height: 15px;
+    position:absolute;
+    bottom:-3px;
+    right:-16px;
+}
+
+
+
+/* 脚注区域 */
+.footer-box {
+	width:97%;
+	height:3.5rem;
+	background: #FAFFF2;
+	padding-left:3%;
+	padding-top:.8rem;
+	position:fixed;
+	left:0;
+	bottom: 0;
+}
+
+
+ .footer-box div {
+     width:10%;
+     text-align: center;
+     display:inline-block;
+ }
+
+
+.footer-box input {
+	width:60%;
+	height:2.7rem;
+	background: #FFFFFF;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.11);
+	border-radius: 4px;
+	margin-left:2%;
+	vertical-align:middle;
+	padding-left:1rem;
+}
+
+
+img {
+	display: inline-block;
+    vertical-align:middle;
+}
+
+.up-arrow {
+    width: 2.3rem;
+    height: 2.3rem;
+
+}
+
+.camera {
+    width: 2.4rem;
+    height: 2.2rem;;
+}
+
+
+.radio {
+    width: 2rem;
+    height: 2.2rem;
+}
+
+
+
+
